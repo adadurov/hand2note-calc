@@ -21,7 +21,7 @@ This solution uses .NET 5 and Visual Studio 2019.
 
 The calculator is implemented based on Pratt parser with parselets for individual expressions. Numbers are processed as double precision floating-point numbers.
 
-Therefore, division by zero produces Infinity instead of exceptions.
+Therefore, division by 'zero' produces Infinity instead of an exception.
 
 Exit code is always 0 (unless interrupted with Ctrl+C).
 
@@ -34,7 +34,7 @@ Exit code is always 0 (unless interrupted with Ctrl+C).
 
 #### Show usage summary
 ```
-  hand2note-calc.exe
+  hand2note-calc.exe --help
 ```
 
 #### Testing
