@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Hand2Note.Calc</RootNamespace>
+    <AssemblyName>hand2note-calc-cli</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\hand2note-calc\hand2note-calc.csproj" />
+  </ItemGroup>
+
+</Project>
