@@ -55,8 +55,10 @@ namespace Hand2Note.Calc
         {
             // FIXME: the message should be in a resource file
 
-            Console.WriteLine(
-@"Welcome to this very simple calculator!
+            Console.Error.WriteLine(
+@"
+
+Welcome to the very simple calculator!
 
 Enter an expression and hit Enter when done.
 Enter en empty string to quit.
@@ -68,23 +70,21 @@ Invoke with --help for more details.
         {
             // FIXME: the message should be in a resource file
             Console.WriteLine(
-@"Usage:
+@"
 
-This is a simple console app implementing a mathematical calculator with 
-basic calculus operations (+, -, *, /) and the 'abs' function returning absolute
-value of its argument.Parentheses are also supported.
+Usage:
+
+This is a simple console app implementing a mathematical calculator with
+support for basic calculus operations (+, -, *, /) and the 'abs' function
+returning absolute value of its argument. Parentheses are also supported.
 
 Example: for the following input
 
-```
 2 * (2 + 3.5)
-```
 
-it is expected to produce 
+the calculator is expected to produce
 
-```
 11
-```
 
 as the output.
 
